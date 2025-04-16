@@ -82,7 +82,7 @@ fun TipCalculatorScreen(){
             Text("Calcular")
         }
         
-        //Para el resultado
+        //Para el resultado: Si tiene texto se muestra
         if (resultadoText.isNotEmpty()) {
             Text(
                 text = resultadoText,
